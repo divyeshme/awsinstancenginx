@@ -1,0 +1,28 @@
+sudo yum update
+
+sudo amazon-linux-extras install nginx1
+
+sudo systemctl start nginx
+sudo systemctl restart nginx
+
+Check by typing public ip in web browser
+you will see the nginx page
+
+now move to ngnix folder by typing
+
+cd /usr/share/ngnix/html
+
+run ls and remove the .html file
+
+ls
+sudo rm index.html
+
+create new file or get the github link repo of this folder
+copy index.html and a.png
+
+to create new index.html file type
+
+sudo vi index.html
+and run
+sudo systemctl restart ngninx
+
