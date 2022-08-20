@@ -1,1 +1,44 @@
+Please refer to doc file to get through images
 
+Login into AWS account 
+
+Select EC2 from Dashboard 
+
+ 
+
+Click on Instances on left hand side, after that click on launch an instance 
+
+Give the name of your instance like mywebsite 
+
+ 
+
+Select Application and OS Images (AMI) from Quick Start like Amazon Linux  
+Make sure it falls under free-tier 
+
+ 
+
+Leave the Instance type as it is of free tier  
+
+ 
+
+If you are creating the ec2 instance for first time create a key pair and download the .pem file 
+
+Change the network setting as per your requirements 
+
+ 
+
+9. Click on Launch Instance 
+
+ 
+ 
+
+11. Select the instance you have created and click on connect the instance you will get various ways to connect to you instance 
+
+ 
+10. Click on connect form EC2 Instance Connect, you can select the SSH Client and EC2 serial console also, however I have created ec2 instance connect 
+
+ 
+
+11. Once you are connected run the commands form script.sh  
+
+ 
